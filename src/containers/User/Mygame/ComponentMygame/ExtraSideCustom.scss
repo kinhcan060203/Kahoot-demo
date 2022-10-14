@@ -1,0 +1,109 @@
+.beside-container {
+    width           : 292px;
+    position        : relative;
+    float           : right;
+    height          : 98vh;
+    background-color: white;
+    padding         : unset !important;
+    transition      : all 0.4s ease-in;
+    user-select     : none;
+
+    .control-beside-container {
+        font-family: FontAwesome;
+        text-align : center;
+
+        display                  : flex;
+        width                    : 56px;
+        font-size                : 25px;
+        align-items              : center;
+        height                   : 40px;
+        border-bottom-left-radius: 16px;
+        position                 : absolute;
+        top                      : 50%;
+        border-top-left-radius   : 16px;
+        transform                : translate(-98%, -60%);
+        justify-content          : center;
+        background-color         : white;
+
+    }
+}
+
+.beside-content {
+    padding        : 16px 6px 20px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-end;
+    align-items    : center;
+    width          : 252px;
+}
+
+.select-beside-custom {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : flex-start;
+}
+
+.custom-item {
+    h3 {
+        font-size  : 18px;
+        font-weight: 700;
+        margin-left: 10px;
+
+    }
+
+    width     : 90%;
+    min-height: 100px;
+
+}
+
+.placehoderQuiz {
+    display        : flex;
+    align-items    : center;
+    justify-content: flex-start;
+
+}
+
+.backgroundQuiz {
+    background     : url(http://localhost:3000/static/media/quiz.5611094a3c73876668f7.svg) center center no-repeat;
+    height         : 28px;
+    width          : 28px;
+    background-size: cover;
+    display        : inline-block;
+}
+
+.select-name {
+    margin-bottom  : 6px;
+    margin-left    : 2px;
+    display        : flex;
+    align-items    : center;
+    justify-content: flex-start
+}
+
+.custom-type-slide {}
+
+.custom-time-limit {}
+
+.custom-point-type {}
+
+.custom-select-type {}
+
+.btn-finish-quiz {
+    background    : #21eff9;
+    border-radius : 16px;
+    color         : white;
+    font-weight   : 600;
+    letter-spacing: 0.8px;
+    margin        : 50px 10px 10px;
+    height        : 44px;
+    transition    : all 0.3s ease-in;
+    width         : 200px;
+
+
+    &:hover,
+    &:active {
+        box-shadow: 1px 1px 2px 1px #00000056;
+
+        background-color: #00aeff
+    }
+}

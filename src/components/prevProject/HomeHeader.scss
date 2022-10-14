@@ -1,0 +1,185 @@
+.header {
+    position        : relative;
+    border          : 1px solid pink;
+    height          : 112px;
+    background-color: #fff;
+    box-sizing      : border-box;
+    z-index         : 2000;
+
+    .container {
+        height: 100%;
+    }
+
+    .up,
+    .down {
+        justify-content: flex-end;
+        align-items    : center;
+        display        : flex;
+        text-transform : capitalize;
+
+        height: 50%;
+
+        .nav-item {
+            font-size     : 17px;
+            cursor        : pointer;
+            font-weight   : 400;
+            letter-spacing: 0.54px;
+            line-height   : 56px;
+            height        : 100%;
+            padding       : 0 24px;
+            min-width     : 80px;
+            text-align    : center;
+
+            svg {
+                margin: 0 6px;
+            }
+        }
+
+        .logo-img {
+            cursor         : pointer;
+            background     : url('../../../assets/Logo/fresh-logo.svg') bottom no-repeat;
+            height         : 100%;
+            width          : 176px;
+            background-size: cover;
+            margin         : 0 38px 14px;
+        }
+
+    }
+
+    .down {
+        justify-content: flex-start;
+
+        .nav-item {
+            font-weight: 500;
+
+            &:hover,
+            &.active {
+                border-bottom: 4px solid red;
+            }
+        }
+
+        .create-new-game {
+            margin-left  : auto;
+            padding      : 5px;
+            width        : 151px;
+            border-radius: 5px;
+
+            background: #0461bdc4;
+            height    : 42px;
+           
+            &:hover {
+                box-shadow   : 1px 1px 2px 1px #00000056;
+                background   : #1897e5c4;
+                border-bottom: unset !important;
+            }
+
+            a {
+                color      : #fefefe;
+                display    : block;
+                line-height: 16px;
+                font-size  : 15px;
+                font-weight: 600;
+                display: block;
+                width: 100%;
+                height: 100%;
+                line-height: 32px;
+            }
+        }
+
+
+    }
+
+}
+
+
+.banner {
+    position       : relative;
+    background     : url('../../../assets/Banner/banner-img.jpg') center right no-repeat;
+    height         : 100vh;
+    background-size: cover;
+
+
+    .banner-wrap-content {
+        position       : absolute;
+        top            : 0;
+        bottom         : 0;
+        z-index        : 2;
+        right          : 40%;
+        left           : 0;
+        display        : flex;
+        align-items    : center;
+        justify-content: flex-end;
+        width          : 68%;
+
+        .banner-content {
+            color: #fff;
+        }
+
+        .title {
+            font-size     : 68px;
+            font-weight   : 600;
+            width         : 64%;
+            letter-spacing: 1px;
+            line-height   : 70px;
+            margin-bottom : 20px;
+        }
+
+        .input-search-user {
+            vertical-align: middle;
+            display       : flex;
+
+            input {
+                height       : 48px;
+                border-radius: 5px;
+                padding      : 10px 20px;
+                font-size    : 20px;
+                outline      : none;
+                color        : #000000b0;
+            }
+
+            .search-for-destination {
+                width: 400px;
+
+            }
+
+
+            .ant-picker {
+                height       : 48px;
+                border-radius: 5px;
+                padding      : 10px 20px;
+                font-size    : 20px;
+                margin-left  : 10px;
+                width        : 180px;
+
+                input {
+                    padding: unset !important;
+                }
+            }
+
+
+            .btn-search {
+                height        : 48px;
+                color         : white;
+                text-transform: capitalize;
+                font-size     : 18px;
+                background    : red;
+                margin-left   : 10px;
+                vertical-align: unset !important;
+
+                svg {
+                    margin-left: 8px;
+                }
+            }
+
+        }
+    }
+
+    .banner-decorate-bottom {
+        position        : absolute;
+        bottom          : 0;
+        z-index         : 1;
+        background-image: linear-gradient(#ffffff00, #0000007d);
+        height          : 56%;
+        width           : 100%;
+    }
+}

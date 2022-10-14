@@ -1,0 +1,19 @@
+.clock_count_down {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 50px;
+
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #afa9a9;
+
+
+    p {
+        transition: all 0.8s ease;
+        transform: scale(1.2)
+    }
+}

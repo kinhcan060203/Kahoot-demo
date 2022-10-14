@@ -1,0 +1,29 @@
+.wrapper_end_game {
+    width: 100vw;
+    background: url("https://img.freepik.com/free-photo/confetti-yellow_24972-755.jpg?w=2000") no-repeat;
+    background-position: 0 -92px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(133, 129, 129);
+    margin-top: 4px;
+}
+
+.context_end_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading_text,
+.side_text {
+    font-weight: 800;
+    font-style: italic;
+    margin: 6px 0;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#75ff00, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

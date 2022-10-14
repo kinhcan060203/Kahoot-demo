@@ -1,0 +1,67 @@
+.form_link {
+    background: rgb(240, 239, 239);
+    color: rgba(0, 0, 0, 0.538);
+    width: 326px;
+    max-height: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 2px 8px;
+    line-height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
+        background-color: rgba(168, 160, 160, 0.54);
+        height: 6px;
+        border-radius: 20px;
+    }
+}
+
+.btn_copy_link {
+    font-size: 28px;
+    background: white;
+    color: #ea9900;
+    display: block;
+
+    /* border: 1px solid; */
+    &:hover {
+        color: #ffca00;
+    }
+}
+
+.field {
+    font-size: 28px;
+    display: contents;
+    font-weight: 600;
+    
+}
+
+.wrapper_btn_copy_link {
+    display: block;
+    width: 48px;
+}
+
+.popover {
+    background-color: #eaffea;
+}
+
+.popover_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.copy_link_wrapper {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

@@ -1,0 +1,23 @@
+.Transpose_count_down {
+    width: 100%;
+    height: 100%;
+    background: url("https://d33wubrfki0l68.cloudfront.net/a8eee43eb10c76e6ee179e2638a765fb4d6f69f9/8fc35/static/waves_green-67a53bd9125a2c87657051177a14de2c.jpg") center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.Transpose_clock {
+    background: url("http://www.clker.com/cliparts/u/0/U/X/d/O/clock-with-minute-ticks-no-hands-hi.png") no-repeat center center;
+    width: 300px;
+    height: 300px;
+    background-size: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 500;
+    color: black;
+    user-select: none;
+}

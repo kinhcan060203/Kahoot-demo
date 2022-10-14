@@ -1,0 +1,30 @@
+.btn_choose_type {
+    width         : 64%;
+    background    : #21eff9;
+    border-radius : 7px;
+    color         : white;
+    font-weight   : 600;
+    letter-spacing: 0.8px;
+    margin        : 10px;
+    transition    : all 0.2s ease-in;
+    padding       : 2px 4px;
+    min-height    : 35px;
+
+
+    &:hover,
+    &:active {
+        box-shadow: 1px 1px 2px 1px #00000056;
+
+        background-color: #00aeff
+    }
+
+
+}
+
+.popover-header {
+    background : red;
+    color      : white;
+    font-weight: 700;
+    text-align : center;
+    font-size  : 18px;
+}
