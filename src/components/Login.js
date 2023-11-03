@@ -47,7 +47,7 @@ class Login extends Component {
     handleSubmitForm = async (e) => {
         e.preventDefault()
         let isValid = !this.handleCheckValid()
-        
+
         if (isValid) {
             let res = await handleLogin(this.state)
             if (res && res.errCode === 0) {
@@ -105,6 +105,7 @@ class Login extends Component {
                                             onClick={(e) => this.handleSubmitForm(e)}
                                             className="btn btn--radius btn--green" type="submit">Login
                                         </button>
+                                      
                                     </div>
 
                                 </form>

@@ -128,10 +128,6 @@ class HomeHeader extends Component {
                     </div>
                 }
 
-
-
-
-
             </Fragment>
         )
     }

@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import HomeHeader from './containers/HomePage/HomePage'
-function App() {
-  return (
-    <div className="App">
-      <HomeHeader />
-    </div>
-  );
+import HomePage from './containers/HomePage/HomePage'
+import React, { Component, Fragment } from "react"
+
+class App extends Component {
+  render() {
+    console.log("dsdsd")
+    return (
+      <Fragment>
+        <HomePage />
+        assass
+      </Fragment>
+    )
+  }
 }
 
 export default App;

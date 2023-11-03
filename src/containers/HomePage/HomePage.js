@@ -16,12 +16,14 @@ class HomePage extends Component {
 
         return (
             <Fragment>
+                
                 <HomeHeader
                     banner={true}
                     isShowButtonExtra={false}
                 />
                 <h1>Hello World</h1>
             </Fragment>
+            
         )
     }
 
